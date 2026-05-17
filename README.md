@@ -1,9 +1,5 @@
 <h1 align="center">Implementasi Algoritma Ant Colony Optimization (ACO)</h1>
 
-<p align="center">
-  Project implementasi algoritma Ant Colony Optimization menggunakan Python
-</p>
-
 <hr>
 
 <h2>📌 Deskripsi</h2>
@@ -101,18 +97,6 @@ pheromone = np.ones((num_nodes, num_nodes))
 
 probability = (pheromone[current_node] ** alpha) * ((1 / distance[current_node]) ** beta)
 </pre>
-
-<hr>
-
-<h2>📈 Pengembangan Selanjutnya</h2>
-
-<ul>
-  <li>Menambahkan GUI interaktif</li>
-  <li>Visualisasi jalur secara real-time</li>
-  <li>Optimasi parameter algoritma</li>
-  <li>Implementasi pada kasus Traveling Salesman Problem</li>
-  <li>Integrasi dengan data peta nyata</li>
-</ul>
 
 <hr>
 
